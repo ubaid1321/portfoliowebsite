@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "role": "Wordpress & Wix Developer",
+    "organisation": "Freelancing",
+    "location": "Baramulla",
+    "experiences": [
+      "Worked as a Frontend Developer "
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Frontend Developer",
+    "organisation": "Freelancing",
+    "location": "Baramulla",
+    "experiences": [
+      "HTML,CSS,Javascript "
+    ]
+    
+  },
+  {
+    "id": 3,
+    "role": "Frontend Developer",
+    "organisation": "Freelancing",
+    "location": "Baramulla",
+    "experiences": [
+      "React.js & React Native." ,"Tailwind CSS and gitHub"
+      
+    ],
+    "imageSrc": "/.png"
+  }
+]
