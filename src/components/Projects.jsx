@@ -24,9 +24,7 @@ const Projects = () => {
                   <a href={data.demo} className="btn btn-primary my-3">
                    Demo
                   </a>
-                  <a href={data.source} className="btn btn-warning">
-                    Go somewhere
-                  </a>
+                 
                 </div>
               </div>
             </div>

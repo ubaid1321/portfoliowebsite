@@ -1,34 +1,66 @@
 [
   {
     "key": 1,
-    "title": "React E-Commerce",
-    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Devlify",
+    "imageSrc": "assets/images/devlify.png",
+    "description": "Html,css,javascript",
+    "demo": "https://www.devlify.in"
+    
   },
   {
     "key": 2,
-    "title": "MERN Blogging",
-    "imageSrc": "https://cdn.pixabay.com/photo/2017/05/02/15/30/streets-2278471_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Yumzee",
+    "imageSrc": "assets/images/yumzee.png",
+    "description": "Html,css,javascript",
+    "demo": "https://www.yumzee.co"
   },
   {
     "key": 3,
-    "title": "React Recipe",
-    "imageSrc": "https://cdn.pixabay.com/photo/2016/08/16/17/12/skyscrapers-1598418_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Daisyrenovations",
+    "imageSrc": "assets/images/daisyren.png",
+    "description": "Wordpress",
+    "demo": "https://www.daisyrenovations.com.com"
   },
   {
     "key": 4,
-    "title": "React Firebase App",
+    "title": "eaglescales",
     "imageSrc": "https://cdn.pixabay.com/photo/2021/03/02/01/07/cyberpunk-6061251_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Wordpress",
+    "demo": "https://eaglescales.in/beta/"
+  },
+  {
+    "key": 5,
+    "title": "Hudson steel",
+    "imageSrc": "assets/images/hudsonsteel.png",
+    "description": "Wordpress",
+    "demo": "https://hudsonsteel.net/"
+  },
+  {
+    "key": 6,
+    "title": "Makenursery",
+    "imageSrc": "assets/images/maknursary.png",
+    "description": "Wordpress",
+    "demo": "https://maknursery.com/"
+  },
+  {
+    "key": 7,
+    "title": "Iram jewellers",
+    "imageSrc": "assets/images/iram.png",
+    "description": "Wordpress",
+    "demo": "https://iramjewelry.ae/sth/"
+  },
+  {
+    "key": 8,
+    "title": "lacashmere",
+    "imageSrc": "assets/images/lacashmere.png",
+    "description": "Wordpress",
+    "demo": "https://lacashmere.com.au/"
+  },
+  {
+    "key":9 ,
+    "title": "dummy website",
+    "imageSrc": "assets/images/eduford.png",
+    "description": "Html,css,javascript",
+    "demo": "https://eduford1321.netlify.app/"
   }
 ]
