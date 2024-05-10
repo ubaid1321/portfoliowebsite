@@ -32,6 +32,17 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+@media (min-width: 768px) {
+  .home .right {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .home {
+    flex-direction: row;
+  }
+}
 .home .left {
   background-color: var(--bg-color);
   width: 620px;
@@ -55,6 +66,13 @@ a {
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
+@media (min-width: 768px) {
+  .home .right .img img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
 @keyframes dummy {
   0% {
     border-color: blue;
@@ -79,6 +97,11 @@ a {
     border-color: rgb(50, 55, 205);
     transform: translate(0, 0px);
     box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+  }
+}
+@media (min-width: 768px) {
+  .contact-icon .items .icons {
+    font-size: 2rem;
   }
 }
 /* experience section */
@@ -124,6 +147,13 @@ a {
 .skills .items .item img {
   width: 70px;
 }
+
+@media (min-width: 768px) {
+  .skills .items .item img {
+    width: 70px;
+  }
+}
+
 /* contact */
 .contact-icon {
   height: 30vh;
@@ -148,4 +178,10 @@ a {
 }
 .contact-icon .items .icons{
   font-size: 2rem;
+}
+@media (min-width: 768px) {
+  .contact-icon .items {
+    height: 70px;
+    width: 70px;
+  }
 }
