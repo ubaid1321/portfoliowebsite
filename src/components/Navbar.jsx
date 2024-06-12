@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container nav_bar" data-aos="fade-"
       data-aos-duration="1000">
         <div className="left nav-items">Portfolio</div>
-        <div className="right">
+        <div className="right ubaid">
           <a href="#home" className="nav-items">Home</a>
           <a href="#experience" className="nav-items">Experience</a>
           <a href="#skills" className="nav-items">Skills</a>
