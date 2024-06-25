@@ -40,8 +40,8 @@ a {
 .home {
   height: 80vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -189,5 +189,14 @@ a {
 @media (max-width: 768px) {
   .skills .items .item {
     width: calc(50% - 40px); /* Adjusted width for smaller screens */
+  }
+}
+@media(max-width:768px){
+  .home{
+    flex-direction: column;
+  }
+
+  .ex{
+    margin-top: 150px;
   }
 }
