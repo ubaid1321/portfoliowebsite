@@ -76,7 +76,7 @@
     "key":11 ,
     "title": "React website",
     "imageSrc": "assets/images/figmareact.png",
-    "description": "Built in React.js and tailwind cssf",
+    "description": "Built in React.js and tailwind css",
     "demo": "https://figmacopyreact.netlify.app/"
   }
 ]
