@@ -71,4 +71,12 @@
     "description": "Built in React.js",
     "demo": "https://cartubaid.netlify.app/"
   }
+  ,
+  {
+    "key":10 ,
+    "title": "React website",
+    "imageSrc": "assets/images/figmareact.png",
+    "description": "Built in React.js and tailwind cssf",
+    "demo": "https://figmacopyreact.netlify.app/"
+  }
 ]
