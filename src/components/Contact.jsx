@@ -17,24 +17,24 @@ const Contact = () => {
     >
     
       
-      <a href="https://www.linkedin.com/in/mohamed-ubaid-mir-8a9649242/" target="_blank" className="items">
+      <a href="https://www.linkedin.com/in/mohamed-ubaid-mir-8a9649242/" target="_blank" className="items c-icons">
         <CiLinkedin className="icons" />
       </a>
      
-      <a href="https://github.com/ubaid1321" target="_blank" className="items">
+      <a href="https://github.com/ubaid1321" target="_blank" className="items c-icons">
         <FaGithubSquare className="icons" />
       </a>
       <a  href="https://wa.me/7006688330?text=Hello%2C%20I'd%20like%20to%20know%20more%20about%20your%20services."
-       target="_blank" className="items">
+       target="_blank" className="items c-icons">
         <FaWhatsapp  className="icons" />
       </a>
-      <a  href="tel:+917006688330"  target="_blank" className="items">
+      <a  href="tel:+917006688330"  target="_blank" className="items c-icons c-icons">
         <FaPhoneAlt  className="icons" />
       </a>
       <a
         href="mailto:ubaidmir623@gmail.com"
         target="_blank"
-        className="items"
+        className="items c-icons"
       >
         <SiGmail className="icons" />
       </a>
