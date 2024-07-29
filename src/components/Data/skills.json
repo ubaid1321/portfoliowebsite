@@ -35,4 +35,19 @@
     "title": "Github",
     "imageSrc": "skills/github.png"
   }
+  ,
+  {
+    "title": "React Router",
+    "imageSrc": "skills/react.png"
+  }
+  ,
+  {
+    "title": "React Navigation",
+    "imageSrc": "skills/react.png"
+  }
+  ,
+  {
+    "title": "gsap",
+    "imageSrc": "skills/gsap.png"
+  }
 ]

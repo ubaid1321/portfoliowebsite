@@ -1,10 +1,10 @@
 :root {
   --box-shadow: 5px 5px 10px 0 rgba(101, 175, 10, 0.5);
-  --bg-color: rgb(40, 47, 97);
+  --bg-color: rgb(0, 0, 0);
 }
 
 body {
-  background-color: rgb(11, 26, 51);
+  background-color: rgb(11, 15, 23);
   color: #fff;
 }
 

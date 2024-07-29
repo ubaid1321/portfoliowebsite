@@ -1,38 +1,31 @@
-import React from "react";
-import project from "./Data/projects.json";
+import React from 'react';
+import './Projects.css';
+import { projects } from '../../data'; 
 
 const Projects = () => {
   return (
-    <div classNameName="container projects my-3" id="projects"
-    data-aos="flip-right"
-            data-aos-duration="1000">
-      <h1>Projects</h1>
-      <div className="row d-flex justify-content-center align-items-center">
-        {project.map((data) => (
-          <>
-            <div key={data.id} className="my-3  col-md-4 col-lg-3 mx-3">
-              <div className="card bg-dark text-light" style={{width: "18rem" ,border:"1px solid yellow",boxShadow:"5px 5px 10px 0 rgba(101,175,10,0.5)"}}>
-                <div className="img d-flex justify-content-center align-items-center" >
-
-                <img src={data.imageSrc} className="card-img-top" alt="..." style={{width:"250px",height:"200px",border:"2px solid yellow",borderRadius:"10px"}} />
-                </div>
-                <div className="card-body text-center">
-                  <h5 className="card-title">{data.title}</h5>
-                  <p className="card-text">
-                    {data.description}
-                  </p>
-                  <a href={data.demo} className="btn btn-primary my-3">
-                   Demo
-                  </a>
-                 
-                </div>
+    <section className='projects'>
+      <div className="section_wrapper projects_container">
+        <div className="section_header center">
+          <h2 className="primary_title">Projects</h2>
+        </div>
+        <div className="projects_grid">
+          {projects.map((project) => (
+            <div className="project_card" key={project.id}>
+              <div className="project_image">
+                <img src={project.image} alt={project.title} />
+              </div>
+              <div className="project_content">
+                <h3 className="project_title">{project.title}</h3>
+                <p className="text_muted description">{project.data.description}</p>
+                <button className="btn btn_primary" onClick={() => window.open(project.data.demoLink, "_blank")}>View Project</button>
               </div>
             </div>
-          </>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
-};
+}
 
 export default Projects;
